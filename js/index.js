@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 // 12 module
 
 // const API_KEY = '76ed63f80dba3e42bfe198c0806fa9ba';
@@ -112,38 +112,38 @@
 
 // 12 module Repeta
 
-const baseUrl = 'https://swapi.co/api/';
-const tableBody = document.querySelector('#swapi-planets tbody');
+// const baseUrl = 'https://swapi.co/api/';
+// const tableBody = document.querySelector('#swapi-planets tbody');
 
-fetch(baseUrl)
-  .then(response => {
-    console.log(response);
-    return response.json();
-  })
-  .then(data => {
-    console.log(data);
-  });
+// fetch(baseUrl)
+//   .then(response => {
+//     console.log(response);
+//     return response.json();
+//   })
+//   .then(data => {
+//     console.log(data);
+//   });
 
-fetch('https://swapi.co/api/people/5')
-  .then(response => {
-    console.log(response);
-    return response.json();
-  })
-  .then(data => {
-    console.log(data);
-  });
-fetch('https://swapi.co/api/planets/')
-  .then(response => {
-    console.log(response);
-    return response.json();
-  })
-  .then(data => {
-    console.log(data);
-    const markup = data.results
-      .map(planet => tableRowTemplate(planet))
-      .join('');
-    tableBody.insertAdjacentHTML('beforeend', markup);
-  });
+// fetch('https://swapi.co/api/people/5')
+//   .then(response => {
+//     console.log(response);
+//     return response.json();
+//   })
+//   .then(data => {
+//     console.log(data);
+//   });
+// fetch('https://swapi.co/api/planets/')
+//   .then(response => {
+//     console.log(response);
+//     return response.json();
+//   })
+//   .then(data => {
+//     console.log(data);
+//     const markup = data.results
+//       .map(planet => tableRowTemplate(planet))
+//       .join('');
+//     tableBody.insertAdjacentHTML('beforeend', markup);
+//   });
 
 // 13 модуль 28/10
 
