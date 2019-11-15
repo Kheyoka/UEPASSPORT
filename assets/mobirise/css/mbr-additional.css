@@ -1679,18 +1679,18 @@ section.lazy-placeholder:after {
   transition: all .3s;
 }
 .cid-rGA1opLAYo .nav-tabs .nav-link:hover {
-  background-color: #149dcc;
+  background-color: #ffffff;
 }
 .cid-rGA1opLAYo .nav-tabs .nav-link:focus {
   box-shadow: none;
-  background-color: #149dcc;
+  background-color: #ffffff;
 }
 .cid-rGA1opLAYo .nav-tabs .nav-link.active {
   font-weight: 500;
-  color: #ffffff;
+  color: #000000;
   font-style: normal;
   border: none;
-  background: #149dcc;
+  background: #ffffff;
 }
 .cid-rGA1opLAYo .nav-tabs .nav-link.active:hover {
   border: none;
